@@ -1,0 +1,25 @@
+<head>
+    <link href="changa.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <script src="jquery.min.js"></script>
+    <script src="bundle.js"></script>
+    <title>Blockly.IO</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <canvas id="main-ui"></canvas>
+    <div id="stats" style="opacity: 0" class="fullscreen hidden"></div>
+    <div id="begin" style="opacity: .99999" class="fullscreen">
+        <div class="center">
+            <h1>Block!</h1>
+            <small>Todo: replace ^^^ with a picture. Work in progress.</small><br>
+            
+            <h1>Введите имя</h1>
+            <input autocomplete="off" id="name" placeholder="Alex">
+            <button type="submit">Играть!</button>
+            <div>
+                <small id="error">Браузер не поддерживает JavaScript!</small>
+            </div>
+        </div>
+    </div>
+</body>
